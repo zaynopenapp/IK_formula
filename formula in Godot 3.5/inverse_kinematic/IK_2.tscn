@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://withAI.gd" type="Script" id=1]
+[ext_resource path="res://point.tscn" type="PackedScene" id=2]
+
+[node name="withAI" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="point" parent="." instance=ExtResource( 2 )]
+margin_left = 235.0
+margin_top = 204.0
+margin_right = 244.0
+margin_bottom = 213.0
+nama = "target move"
+
+[node name="point2" parent="." instance=ExtResource( 2 )]
+margin_left = 80.0
+margin_top = 80.0
+margin_right = 89.0
+margin_bottom = 89.0
+nama = "shoulder  move"
+
+[node name="point3" parent="." instance=ExtResource( 2 )]
+margin_left = 289.0
+margin_top = 59.0
+margin_right = 298.0
+margin_bottom = 68.0
+nama = "Knee"
+
+[node name="Button" type="Button" parent="."]
+margin_left = 832.0
+margin_top = 8.0
+margin_right = 1021.0
+margin_bottom = 28.0
+text = "IK interception two circle"
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 432.0
+margin_top = 8.0
+margin_right = 488.0
+margin_bottom = 28.0
+toggle_mode = true
+text = "flip"
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="toggled" from="Button2" to="." method="_on_Button2_toggled"]
