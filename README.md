@@ -1,5 +1,5 @@
 # IK_formula
-This is the Inverse Kinematics formula written in Godot and Python. There are two methods for solving IK. I hope you find it useful
+This is the Inverse Kinematics formula written in Godot 3.5 and Python. There are two methods for solving IK. I hope you find it useful
 
 
 ![godot ik](https://github.com/user-attachments/assets/12efd9e7-bc92-465d-ba78-96a21b5e3e90)
