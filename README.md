@@ -9,3 +9,6 @@ video demo: https://youtu.be/RFB3PZjZcPo
 
 
 ![ik 2 godot](https://github.com/user-attachments/assets/ee53febc-aa61-4809-b264-a32a6de9fe73)
+
+
+![ik_converter_bone_only](https://github.com/user-attachments/assets/498f7502-d1f0-4ef4-9c80-ad0f47f8fbb1)
